@@ -85,7 +85,7 @@ if ( ! empty( $el_id ) ) {
 $wrapper_attributes_html = implode( ' ', $wrapper_attributes );
 
 $separatorHtml = <<<TEMPLATE
-<div class="$css_class" $wrapper_attributes_html><span class="vc_sep_holder vc_sep_holder_l" $inline_css_fix ><span $inline_css class="vc_sep_line"></span></span>$content<span class="vc_sep_holder vc_sep_holder_r"><span $inline_css class="vc_sep_line"></span></span>
+<div class="$css_class" $wrapper_attributes_html><span class="vc_sep_holder vc_sep_holder_l" $inline_css_fix ><span $inline_css class="vc_sep_line"></span></span>$content<span class="vc_sep_holder vc_sep_holder_r" $inline_css_fix><span $inline_css class="vc_sep_line"></span></span>
 </div>
 TEMPLATE;
 
